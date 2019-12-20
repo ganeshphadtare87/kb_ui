@@ -16,7 +16,7 @@ export class HomeComponent implements OnInit {
       // alert(data);
     },
       error => {
-        debugger;
+        // debugger;
         console.log(error);
       }
     );
