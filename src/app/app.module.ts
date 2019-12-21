@@ -13,6 +13,9 @@ import { AdsListComponent } from './ads-list/ads-list.component';
 import { AdTileComponent } from './ad-tile/ad-tile.component';
 import { AdDetailComponent } from './ad-detail/ad-detail.component';
 import { ComponentsModule } from './components.module';
+import { AdsGridComponent } from './ads-grid/ads-grid.component';
+import { AdsGridFilterComponent } from './ads-grid-filter/ads-grid-filter.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +26,9 @@ import { ComponentsModule } from './components.module';
     CategorybarComponent,
     AdsListComponent,
     AdTileComponent,
+    AdsGridComponent,
+    AdsGridFilterComponent,
+    PageNotFoundComponent,
     AdDetailComponent
   ],
   imports: [

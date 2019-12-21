@@ -23,18 +23,19 @@
                 <nav class="site-navigation position-relative text-right" role="navigation">
 
                     <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
-                        <li class="active"><a href="index.html" class="nav-link">Home</a></li>
-                        <li><a href="features.html" class="nav-link">Features</a></li>
-                        <li><a href="pricing.html" class="nav-link">Pricing</a></li>
+                        <li class="active"><a [routerLink]="['/home']" class="nav-link">Home</a></li>
+                        <li><a [routerLink]="['/features']">Features</a></li>
+                        <li><a [routerLink]="['/pricing']" class="nav-link">Pricing</a></li>
+                        <li><a [routerLink]="['/blogs']" class="nav-link">Blogs</a></li>
 
-                        <li class="has-children">
-                            <a href="blog.html" class="nav-link">Blog</a>
+                        <!-- <li class="has-children">
+                            <a [routerLink]="['/blogs']" class="nav-link">Blog</a>
                             <ul class="dropdown">
                                 <li><a href="blog.html" class="nav-link">Blog</a></li>
                                 <li><a href="blog-single.html" class="nav-link">Blog Sigle</a></li>
                             </ul>
-                        </li>
-                        <li><a href="contact.html" class="nav-link">Contact</a></li>
+                        </li> -->
+                        <li><a [routerLink]="['/contact']" class="nav-link">Contact</a></li>
                     </ul>
                 </nav>
             </div>
@@ -49,6 +50,4 @@
 
         </div>
     </div>
-
 </header>
-<!-- <app-categorybar></app-categorybar> -->
